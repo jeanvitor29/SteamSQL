@@ -155,7 +155,7 @@ Em seguida , clique em next até o final.
 <br><br>
 
     comando:
-        select cout(desenvolvedora) from jogos where desenvolvedora in ('Valve', 'Black Element', 'SpinTop Games');
+        select count(desenvolvedora) from jogos where desenvolvedora in ('Valve', 'Black Element', 'SpinTop Games');
     
     O comaando 'in' é utilizado quando precisamos passar mais de 1 parâmetro, se necessitarmos de apenas 1 parâmetro, usariamos
     o comando 'like' ao invés de 'in'.
