@@ -7,7 +7,6 @@
 - [x] jogo
 - [x] lancamento
 - [x] desenvolvedor
-- [] editora
 - [x] plataforma
 - [x] categoria
 - [x] genero
