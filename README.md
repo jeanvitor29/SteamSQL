@@ -7,7 +7,7 @@
 - [x] jogo
 - [x] lancamento
 - [x] desenvolvedor
-- [x] editora
+- [] editora
 - [x] plataforma
 - [x] categoria
 - [x] genero
@@ -18,6 +18,7 @@
 - [x] preco
 
 ### os cabeçalhos listados acima serão muito importantes na criação do banco dados
+### importante informar que não usaremos o cabeçalho "editora".
 
 
 <br>
@@ -99,5 +100,67 @@ Em seguida , clique em next até o final.
 <br><br>
 
 # Agora irei adicionar algumas imagens com comandos de manipulação de dados para que te ajude futuramente! 
-### Obrigado por visitar nosso repositório !
+<br><br>
 
+    comando:
+        select nome, max(preco), lancamento from jogos;
+
+
+
+![](img/maisCaro.jpeg)
+
+<br><br>
+
+***
+<br><br>
+
+    comando:
+        select id, nome from jogos where id <= 10;
+
+
+![](img/nomesOrdem.jpeg)
+
+<br><br>
+
+***
+<br><br>
+
+    comando:
+        select nome, avNegativa from jogos where avNegativa order by desc limit 5;
+
+![](img/avNegativas.jpeg)
+
+<br><br>
+
+***
+<br><br>
+
+    comando:
+        select nome, desenvolvedora, categoria, avPositiva from  jogos where avPositiva order by avPositiva desc limit 5;
+
+![](img/avPositivas.jpeg)
+
+<br><br>
+
+***
+<br><br>
+
+    comando:
+        select nome, conquista from jogos where conquista order by conquista desc limit 5;
+![](img/topConquistas.jpeg)
+
+<br><br>
+
+***
+
+<br><br>
+
+    comando:
+        select cout(desenvolvedora) from jogos where desenvolvedora in ('Valve', 'Black Element', 'SpinTop Games');
+    
+    O comaando 'in' é utilizado quando precisamos passar mais de 1 parâmetro, se necessitarmos de apenas 1 parâmetro, usariamos
+    o comando 'like' ao invés de 'in'.
+    ex:
+        select count(desenvolvedora) from jogos where desenvolvedora like 'Valve';
+
+![](img/countFunction.jpeg)
