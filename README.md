@@ -1,8 +1,26 @@
 # SteamSQL
 
-<h1>Bem vindo ! Aqui aprenderemos alguns comandos e e dicas do MySql</h1>
+# Bem vindo ! Aqui aprenderemos alguns comandos e e dicas do MySql.
 
-<h2>Vamos separar nosso trabalho passo a passo , para que você possa compreender de maneira fácil.</h2>
+## Vamos separar nosso trabalho passo a passo , para que você possa compreender de maneira fácil.
 
-<h4>1º passo - Análisar a Tabela do excel que será transformada para o Formato CSV.</h4>
+### 1º passo - Análisar a Tabela do excel que será transformada para o Formato CSV.
 
+- [x] jogo
+- [x] lancamento
+- [x] desenvolvedor
+- [x] editora
+- [x] plataforma
+- [x] categoria
+- [x] genero
+- [x] conquistas
+- [x] avPositivas
+- [x] avNegativas
+- [x] mediajogo
+- [x] preco
+
+#### os cabeçalhos listados acima serão muito importantes na criação do banco dados.
+
+<br>
+
+![](img/tabelaFormatoExcel.jpg)
