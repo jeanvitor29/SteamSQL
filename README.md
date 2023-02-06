@@ -4,6 +4,7 @@
 ***
 ## 1º passo - Análisar a Tabela do excel que será transformada para o Formato CSV.
 
+
 - [x] jogo
 - [x] lancamento
 - [x] desenvolvedor
