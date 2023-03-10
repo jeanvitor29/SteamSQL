@@ -32,7 +32,7 @@
 
 Na planilha do excel , no canto superior esquerdo , clique em arquivo e depois salvar como:
 
-salve o arquivo como " .csv(separado por vírgula)", assim como mostra a imagem a seguir.
+salve o arquivo como " .csv(separado por vírgula)", assim como mostra a imagem a seguir
 
 
 ![](img/salvando%20em%20csv.png)
